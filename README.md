@@ -1,5 +1,5 @@
 # To Do
-- [ ] Instancing
-- [ ] random x axis drift
-- [ ] y axis acceleration
-- [ ] abstraction
+- [x] Instancing
+- [x] Random x axis drift
+- [ ] Y axis acceleration
+- [ ] Abstract the code a little
