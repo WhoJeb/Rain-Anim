@@ -5,6 +5,14 @@ If somehow by some divine intervention you find this repo and are bat-shit insan
   1. It is only easy to do on NixOS
   2. You will need all the dependancies in [shell.nix] to be installed globally or you will have to mess with the makefile and/or environment variables to point to the right spot
 
+### NixOS
+
+### General Linux
+You've kinda got 2 options: 
+
+### Windows
+Don't...
+
 ---
 
 # To Do
