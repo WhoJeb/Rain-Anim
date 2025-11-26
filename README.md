@@ -5,8 +5,6 @@
 - [ ] Y axis acceleration
 - [ ] Abstract the code a little
 
----
-
 ## Compiling From Source
 If somehow by some divine intervention you find this repo and are bat-shit insane enough actually want to compile it yourself, here are some things you should know:
 
