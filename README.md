@@ -16,8 +16,6 @@ You've kinda got 2 options:
 The dependancies you will likey have to install are contained in:
 ```nix
 packages = with pkgs; [
-  somePkg
-  somePkg
   ...
 ];
 ```
