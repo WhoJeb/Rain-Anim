@@ -1,4 +1,12 @@
 # Rain Anim
+## To Do
+- [x] Instancing
+- [x] Random x axis drift
+- [ ] Y axis acceleration
+- [ ] Abstract the code a little
+
+---
+
 ## Compiling From Source
 If somehow by some divine intervention you find this repo and are bat-shit insane enough actually want to compile it yourself, here are some things you should know:
 
@@ -49,10 +57,3 @@ Additionally you may need to install some of these if for some reason you don't 
 ### Windows
 Don't...
 
----
-
-# To Do
-- [x] Instancing
-- [x] Random x axis drift
-- [ ] Y axis acceleration
-- [ ] Abstract the code a little
