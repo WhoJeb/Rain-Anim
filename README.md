@@ -6,6 +6,24 @@ If somehow by some divine intervention you find this repo and are bat-shit insan
   2. You will need all the dependancies in [shell.nix](https://github.com/WhoJeb/Rain-Anim/blob/main/shell.nix) to be installed globally or you will have to mess with the makefile#Installing-dependancies-globally and/or environment variables to point to the right spot
 
 ### NixOS
+On NixOS compilation is pretty straight forward
+
+```bash
+$ nix-shell
+```
+
+#### then:
+
+```bash
+$ ./build.sh
+```
+
+#### or:
+
+```bash
+$ cmake .
+$ make
+```
 
 ### General Linux
 You've kinda got 2 options: 
@@ -19,7 +37,12 @@ packages = with pkgs; [
   ...
 ];
 ```
+Additionally you may need to install some of these if for some reason you don't have them already:
+  - A Compiler (pref. clang or gcc)
+  - cmake
+  - pkg-config (optional but may be useful)
 
+---
 
 ### Windows
 Don't...
