@@ -25,6 +25,8 @@ $ cmake .
 $ make
 ```
 
+---
+
 ### General Linux
 You've kinda got 2 options: 
   1. [Installing Dependancies Globally](#Installing-dependancies-globally)
