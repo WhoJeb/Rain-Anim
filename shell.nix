@@ -9,15 +9,16 @@ pkgs.mkShell {
     libGLU # OpenGL Utility library
     glfw # GLFW windowing library
     glew # GLEW OpenGL Extension Wrangler
-    glm # OpenGL Math Module
     # Or glad, if preferred:
     # glad
+    glm # OpenGL Math Module
     # sdl2 # SDL2 windowing library (alternative to GLFW)
   ];
 
   # pkg-config must be in nativeBuildInputs
   nativeBuildInputs = with pkgs; [
-    gcc # C++ compiler
+    gcc # C/C++ Compiler
+    libclang # C/C++ Compiler
     cmake # Build system
     pkg-config
   ];
